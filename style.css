@@ -1,0 +1,111 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* fonts */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(62, 59, 65);
+    color:white;
+    max-width: 100vw;
+    max-height: 100vh;
+    font-size:1.7vw;
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding:1rem;
+    transition: all 1s;
+    border-radius: 15px;
+
+}
+a:hover{
+    color:red;
+    font-size: 2vw;
+    box-shadow: 12px 13px 11px rgb(0,0,0,0.5);
+}
+hr{
+    color:white;
+}
+h1{
+    text-align: center;
+    margin:1rem;
+}
+img{
+    border:1px solid white;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    margin: 1rem;
+    padding: 1rem;
+}
+nav, main,aside{
+    display:inline-block;
+    margin:40px;
+}
+nav{
+    vertical-align: top;
+    width: 40%;
+
+}
+main{
+    width:40%;
+
+}
+main > *{
+    margin: 1.1rem;
+}
+
+
+/* Early-life-and-education img only */
+
+#stretch-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+/* Table on literary-work page */
+table,tr,th,td{
+    border:1px solid white;
+    border-collapse: collapse;
+    margin: 1rem;
+    padding: 1rem;
+}
+table{
+    box-shadow: 12px 15px 13px black;
+}
+td{
+    width:25%;
+}
+
+
+
+/* media queries */
+@media screen and (max-width: 818px){
+    body{
+        max-width: 100vw;
+        /* font-size: 1.1rem; */
+    }
+    nav,main,aside{
+        display:block;
+        width:400px;
+    }
+}
+/* @media screen and (max-width: 446px){
+    body{
+        font-size: 5vmin;
+    }
+    a:hover{
+        font-size:1rem;
+    }
+} */
