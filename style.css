@@ -91,16 +91,15 @@ td{
 
 
 /* media queries */
-/* @media screen and (max-width: 818px){
+@media screen and (max-width: 818px){
     body{
         max-width: 100vw;
-        font-size: 1.1rem;
     }
     nav,main,aside{
         display:block;
         width:400px;
     }
-} */
+}
 /* @media screen and (max-width: 446px){
     body{
         font-size: 5vmin;
