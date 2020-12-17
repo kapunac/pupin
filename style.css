@@ -54,7 +54,7 @@ nav, main,aside{
 nav{
     vertical-align: top;
     width: 40%;
-
+    border-right: 2px solid white;
 }
 main{
     width:40%;
@@ -98,6 +98,10 @@ td{
     nav,main,aside{
         display:block;
         width:400px;
+    }
+    nav{
+        border-right: none;
+        border-bottom:2px solid white;
     }
 }
 /* @media screen and (max-width: 446px){
