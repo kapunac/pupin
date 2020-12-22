@@ -107,5 +107,8 @@ td{
         border-right: none;
         border-bottom:2px solid white;
     }
-
+    img{
+        height: 120px;
+        width: 120px;
+    }
 }
