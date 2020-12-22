@@ -37,6 +37,9 @@ h1{
     text-align: center;
     margin:1rem;
 }
+h2, h3{
+    color:rgb(117, 198, 245);
+}
 img{
     border:1px solid white;
     float: left;
