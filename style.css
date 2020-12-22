@@ -55,25 +55,27 @@ nav, main,aside{
 }
 nav{
     vertical-align: top;
-    width: 30%;
+    width: 35%;
     border-right: 2px solid white;
-    
+    position: fixed;
 }
 main{
-    width:60%;
-    
+    width:55%;
+    float:right;
 }
 main > *{
     margin: 1.1rem;
+}
+aside{
+    float:right;
+    width:55%;
 }
 
 
 /* Early-life-and-education img only */
 #stretch-img{
-    position: relative;
-    left:50%;
-    transform: translateX(-50%);
-    width:50%;
+    float:right;
+    width:55%;
 }
 
 /* Table on literary-work page */
@@ -101,11 +103,30 @@ td{
         margin: 0;
         padding: 0;
         width:100vw;
-        
+        clear:both;
     }
     nav{
+        display:block;
         border-right: none;
-        border-bottom:2px solid white;
+        border-top:2px solid white;
+        width:100vw;
+        clear:both;
+        bottom:0;
+    }
+    main,aside{
+        margin-bottom:14vh;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        display:flex;
+        background-color: #444;
+    }
+    li a{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        
     }
     img{
         height: 120px;
