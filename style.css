@@ -53,11 +53,11 @@ nav, main,aside{
 }
 nav{
     vertical-align: top;
-    width: 40%;
+    width: 30%;
     border-right: 2px solid white;
 }
 main{
-    width:40%;
+    width:60%;
 
 }
 main > *{
