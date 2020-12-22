@@ -96,11 +96,14 @@ td{
         max-width: 100vw;
     }
     nav,main,aside{
-        display:block;
-        width:400px;
+        margin: 0;
+        padding: 0;
+        width:100vw;
+        
     }
     nav{
         border-right: none;
         border-bottom:2px solid white;
     }
+
 }
