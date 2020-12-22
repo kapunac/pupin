@@ -39,6 +39,8 @@ h1{
 }
 img{
     border:1px solid white;
+    float: left;
+    margin: 10px;
 }
 ul{
     list-style: none;
@@ -55,10 +57,11 @@ nav{
     vertical-align: top;
     width: 30%;
     border-right: 2px solid white;
+    
 }
 main{
     width:60%;
-
+    
 }
 main > *{
     margin: 1.1rem;
@@ -66,11 +69,10 @@ main > *{
 
 
 /* Early-life-and-education img only */
-
 #stretch-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
     width:50%;
 }
 
